@@ -6,7 +6,7 @@ from IPython.display import display, HTML
 
 def load_all_csvs(folder: Path) -> dict[pd.DataFrame]:
     csv_files = list(folder.glob("*.csv"))
-    dfs = {f.stem: pd.read_csv(f) for f in csv_files}
+    dfs = {f.stem: pd.read_csv(f, sep=None, engine="python") for f in csv_files}
     return dfs
 
 def quick_overview(df: pd.DataFrame, name: str ="DataFrame") -> None:
