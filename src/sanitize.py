@@ -32,6 +32,7 @@ def clean_demographic_data(df: pd.DataFrame) -> pd.DataFrame:
     df['MedianAgeInYears'] = df['MedianAgeInYears'].fillna(
         df['MedianAgeInYears'].median()
     )
+    df = df[df['TotalPopulation'] > 0]
     df = df.drop_duplicates(subset='Id')
     return df
 
