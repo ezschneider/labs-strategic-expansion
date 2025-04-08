@@ -124,6 +124,8 @@ Baseado na árvore de problemas levantada, essas são as hipóteses para serem v
 
 - **H1c:** ZCTAs com maior proporção de população idosa (acima de 65 anos) têm maior frequência de utilização dos serviços laboratoriais
 
+- **H1d:** ZCTAs com maior proporção de mulheres têm maior frequência de utilização dos serviços laboratoriais
+
 **H2 – Performance Atual de Exames**
 - **H2a:** ZCTAs com maior número de exames realizados nos últimos anos indicam maior potencial futuro.
 
