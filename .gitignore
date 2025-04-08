@@ -1,4 +1,6 @@
-data/
+data/*.csv
+data/*.zip
+tl_*_us_zcta520/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -13,4 +13,5 @@ dependencies = [
     "scikit-learn",
     "seaborn>=0.13.2",
     "folium>=0.19.5",
+    "geopandas>=1.0.1",
 ]
