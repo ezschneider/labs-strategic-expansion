@@ -4,7 +4,7 @@ import pandas as pd
 
 sns.set_theme(style="whitegrid", palette="viridis")
 
-def plot_volume_por_zip(series: pd.Series, top_n: int = 15):
+def plot_exam_volume_by_zip(series: pd.Series, top_n: int = 15):
     """Plots the top ZCTAs by exam volume."""
     top_series = series.head(top_n)
     plt.figure(figsize=(10, 6))
@@ -15,7 +15,7 @@ def plot_volume_por_zip(series: pd.Series, top_n: int = 15):
     plt.tight_layout()
     plt.show()
 
-def plot_custo_medio_por_zip(series: pd.Series, top_n: int = 15):
+def plot_avg_cost_by_zip(series: pd.Series, top_n: int = 15):
     """Plots the top ZCTAs by average testing cost."""
     top_series = series.head(top_n)
     plt.figure(figsize=(10, 6))
@@ -26,7 +26,7 @@ def plot_custo_medio_por_zip(series: pd.Series, top_n: int = 15):
     plt.tight_layout()
     plt.show()
 
-def plot_volume_por_faixa_etaria(series: pd.Series):
+def plot_exam_volume_by_age_group(series: pd.Series):
     """Plots exam volume per age group."""
     plt.figure(figsize=(8, 5))
     sns.barplot(x=series.index, y=series.values)
@@ -36,7 +36,7 @@ def plot_volume_por_faixa_etaria(series: pd.Series):
     plt.tight_layout()
     plt.show()
 
-def plot_top_coditem(df: pd.DataFrame):
+def plot_top_coditems(df: pd.DataFrame):
     """Plots top CodItems by exam volume and total cost."""
     fig, ax1 = plt.subplots(figsize=(10, 6))
     sns.barplot(x=df.index.astype(str), y=df['volume'], ax=ax1, color="skyblue", label='Volume')
