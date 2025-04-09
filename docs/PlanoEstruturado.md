@@ -21,6 +21,7 @@
       - [Pesquisa e Revisão de Descobertas Anteriores](#pesquisa-e-revisão-de-descobertas-anteriores)
       - [Árvore de Problemas](#árvore-de-problemas)
       - [Hipóteses para Validação](#hipóteses-para-validação)
+      - [Diagrama de Entidades](#diagrama-de-entidades)
 
 
 ---
@@ -158,3 +159,9 @@ Baseado na árvore de problemas levantada, essas são as hipóteses para serem v
 - Análise estatística descritiva e inferencial para validar diferenças significativas entre grupos.
 
 - Aplicação de modelos preditivos simples para relacionar variáveis demográficas/econômicas com volume e receita gerada.
+
+#### Diagrama de Entidades
+
+Segundo os dados disponibilizados essa foi a interpretação de relacionamento entre as entidades:
+
+![Diagrama UML do Case](uml_case.png)

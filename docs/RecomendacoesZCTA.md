@@ -19,8 +19,8 @@ Com base nas análises realizadas ao longo das hipóteses H1 a H5, foram conside
 ## ✅ ZCTAs Recomendadas
 
 ### 1. **94565 – Pittsburg, CA**
-- 💥 **Maior volume de exames:** 122.840
-- 📈 **Alta diversidade de exames:** 1.035 tipos
+- 📈 **Maior volume de exames:** 122.840
+- 📊 **Alta diversidade de exames:** 1.035 tipos
 - 👥 População total: 97.671
 - 🧓 Idosos: 10.1%
 - 🧍 Mulheres: 49.8%
@@ -42,15 +42,15 @@ Com base nas análises realizadas ao longo das hipóteses H1 a H5, foram conside
 
 ---
 
-### 3. **19148 – Philadelphia, PA**
-- 💉 Exames: 73.726
-- 📊 Diversidade: 616 tipos
-- 👥 População: 52.259
-- 🧓 Idosos: 14.3%
-- 🧍 Mulheres: 50.4%
-- 🔁 **Maior fidelização:** 4.6%
-- 🏥 Laboratórios: 2
-- **Conclusão:** Excelente para reforçar programas de fidelização e retenção.
+### 3. **19120 – Philadelphia, PA**
+- 📈 Exames: 76.749
+- 📊 Diversidade: 673 tipos
+- 👥 População: 74.060
+- 🧓 Idosos: 8.1%
+- 🧍 Mulheres: 52.5%
+- 🔁 **Segundo maior em Fidelização:** 4.4%
+- 🏥 Laboratórios: 1
+- **Conclusão:** Excelente para reforçar programas de fidelização e retenção + público feminino estratégico (já que o primeiro em fidelização já possui 2 laboratórios).
 
 ---
 
