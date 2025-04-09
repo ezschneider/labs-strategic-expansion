@@ -37,6 +37,7 @@ def clean_demographic_data(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 def clean_transactional_data(df: pd.DataFrame) -> pd.DataFrame:
+    df = df.copy()
     df['Testing Cost'] = (
         df['Testing Cost']
         .astype(str)
