@@ -131,15 +131,21 @@ Baseado na árvore de problemas levantada, essas são as hipóteses para serem v
 
 - **H2b:** Exames com maior custo operacional têm relação direta com receita e lucro mais altos para a rede.
 
+- **H2c:** *(Consequencia da exporação dos dados)* ZCTAs com alta proporção de mulheres podem ser estratégicos para expansão, especialmente considerando que os exames mais rentáveis da rede são voltados à saúde feminina.
+
 **H3 – Concorrência e Saturação de Mercado**
 - **H3a:** ZCTAs com menos laboratórios concorrentes têm maior potencial para expansão da rede.
 
 - **H3b:** ZCTAs com alto volume de exames realizados em relação à quantidade de laboratórios existentes representam uma oportunidade estratégica de expansão.
 
+> Obs: Hipóteses que poderiam ser consideradas prém avaliando os dados presentes, não foi possível tirar conclusões
+
 **H4 – Logística e Acessibilidade**
 - **H4a:** Laboratórios localizados em ZCTAs com melhores índices de acessibilidade (ex.: proximidade de vias principais, transporte público) possuem maior volume médio de exames realizados.
 
 - **H4b:** ZCTAs com maior concentração urbana têm maior potencial de fidelização devido à facilidade logística para clientes.
+
+> Obs: Mesmo caso das hipóteses em H3
 
 **H5 – Aspectos Estratégicos e de Fidelização**
 - **H5a:** ZCTAs que apresentam maior diversidade de exames realizados demonstram maior fidelização dos pacientes.

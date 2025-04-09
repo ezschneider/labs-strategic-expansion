@@ -46,7 +46,19 @@ def clean_transactional_data(df: pd.DataFrame) -> pd.DataFrame:
     df['Date of birth'] = pd.to_datetime(df['Date of birth'], errors='coerce')
     df['Date of service'] = pd.to_datetime(df['Date of service'], errors='coerce')
     df = df.dropna(subset=['Date of birth'])
+
+    # Classifica tipo de Patient Id
+    df.loc[:, 'id_tipo'] = df['Patient Id'].astype(str).apply(
+        lambda x: (
+            'completo' if re.match(r'^\d{6,}-\d$', x) else
+            'com_bio' if re.match(r'^\d+-BIO\d+$', x) else
+            'outro'
+        )
+    )
+    # Mantém apenas os IDs válidos
+    df = df[df['id_tipo'].isin(['completo', 'com_bio'])]
     df = df.drop_duplicates()
+
     return df
 
 def clean_economic_data(df: pd.DataFrame) -> pd.DataFrame:
