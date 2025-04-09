@@ -59,8 +59,7 @@ Com base nas análises realizadas ao longo das hipóteses H1 a H5, foram conside
 A escolha das ZCTAs levou em consideração tanto aspectos demográficos quanto operacionais. As regiões selecionadas apresentam uma combinação ideal de:
 
 - Demanda consolidada
-- Público-alvo estratégico (mulheres e idosos)
-- Diversidade de exames
-- Espaço para expansão da rede ou aprofundamento da presença atual
+- Público-alvo estratégico (mulheres)
+- Fidelização dos clientes
 
 Essas regiões devem ser priorizadas em qualquer plano de expansão de curto a médio prazo.
